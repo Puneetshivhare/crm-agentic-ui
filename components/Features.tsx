@@ -18,6 +18,7 @@ export default function Features() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-80px" }}
               transition={{ duration: 0.4, delay: i * 0.05 }}
+              whileHover={{ y: -4, boxShadow: "0 12px 30px -12px rgba(62,207,142,0.35)" }}
               className="rounded-xl border border-line bg-canvas p-7 transition-colors hover:border-primary/40"
             >
               <p className="text-[15px] font-bold">{f.title}</p>
