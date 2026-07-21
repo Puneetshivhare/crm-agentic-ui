@@ -1,5 +1,6 @@
 export const content = {
   projectName: "CRM Agentic",
+  icon: "📊",
   tagline: "A CRM that researches, enriches, and monitors your pipeline for you.",
   description:
     "An agentic CRM system where autonomous agents handle lead research, data enrichment, and account monitoring — so reps spend time closing, not typing.",
