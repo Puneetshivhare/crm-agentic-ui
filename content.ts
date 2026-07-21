@@ -8,7 +8,7 @@ export const content = {
   stats: [
     { value: "3", label: "Autonomous agents" },
     { value: "8/8", label: "Core tasks shipped" },
-    { value: "MVP", label: "Current phase" },
+    { value: "Self-hosted", label: "Your data, your infra" },
   ],
   features: [
     {
@@ -34,5 +34,7 @@ export const content = {
   ],
   architecture: ["FastAPI backend", "Postgres (Supabase)", "Chroma vector store", "Agent runtime"],
   githubUrl: "https://github.com/Puneetshivhare/CRM_agentic",
-  status: "MVP complete",
+  // Category eyebrow — not a dev-stage indicator. Access is limited by
+  // rate limits / data resourcing, not by how finished the project is.
+  status: "Agentic CRM",
 };
